@@ -1,0 +1,46 @@
+{
+  "href": "https://api.deutschebahn.com/flinkster-api-ng/v1/bookingproposals?lat=52.536801&lon=13.394962&radius=1000&offset=5&limit=100&providernetwork=1&begin=2017-05-20T18:07:00+01:00&end=2017-05-20T22:07:00+01:00",
+  "offset": 5,
+  "limit": 100,
+  "size": 6,
+  "items": [
+    {
+      "expand": "area,rentalobject,price",
+      "rentalObject": {
+        "href": "https://api.deutschebahn.com/flinkster-api-ng/v1/providernetworks/1/rentalobjects/7989F273E0E9A8369A1C42CF2400ABF46F574578",
+        "attributes": null,
+        "equipment": null
+      },
+      "area": {
+        "href": "https://api.deutschebahn.com/flinkster-api-ng/v1/areas/05A753E16A17F8A61141FDA0B56BA315845B49D2"
+      },
+      "position": {
+        "type": "Point",
+        "coordinates": [
+          13.382519782,
+          52.53355981
+        ]
+      },
+      "distance": 0,
+      "_links": [
+        {
+          "rel": "AppBookingLink",
+          "verb": "GET",
+          "href": "flinkster://bookvehicle?lat=52.53355981&lon=13.382519782&start=2017-05-20T18%3A15%3A00%2B01%3A00&commissionPartner=dbnavigator&end=2017-05-20T22%3A15%3A00%2B01%3A00&rentalobjectid=HAL%23pool_400396"
+        }
+      ]
+    }
+  ],
+  "_links": [
+    {
+      "rel": "AppleAppStore",
+      "verb": "GET",
+      "href": "https://itunes.apple.com/de/app/flinkster/id421390893?mt=8"
+    },
+    {
+      "rel": "GooglePlayStore",
+      "verb": "GET",
+      "href": "https://play.google.com/store/apps/details?id=de.bahn.flinkster&hl=de"
+    }
+  ]
+}
